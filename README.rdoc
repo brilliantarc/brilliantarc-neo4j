@@ -1,3 +1,16 @@
+= DO NOT USE!
+
+This version of Neo4j.rb was specifically tailored for use by our Brilliant Arc software.
+It is not useful for public consumption.  First off, it is old, and locked to Neo4j 1.0.
+Furthermore, it has all the Lucene functionality removed, as we use a different indexer
+for our graph nodes.  This version of Neo4j was explicitly *not* forked for a reason.
+
+For the correct and far superior version of Neo4j (we're currently tied to Rails 2.3, so
+we can't use it), see:
+
+  https://github.com/andreasronge/neo4j 
+
+
 = Neo4j.rb
 
 Neo4j.rb is a graph database for JRuby.
